@@ -1,5 +1,5 @@
-import React from 'react';
-import './Header.css'
+import React from "react";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -7,6 +7,6 @@ const Header = () => {
       <p>Tableau periodique des élements</p>
     </header>
   );
-}
- 
+};
+
 export default Header;

@@ -1,16 +1,16 @@
-import './App.css';
-import Header from './Header';
-import PeriodicTable from './PeriodicTable';
+import "./App.css";
+import Header from "./Header";
+import PeriodicTable from "./PeriodicTable";
 
 const App = () => {
   return (
     <div className="flex-container-vertical">
-    <Header />
+      <Header />
       <main className="main-width">
-      <PeriodicTable />
+        <PeriodicTable />
       </main>
     </div>
   );
-}
+};
 
 export default App;
