@@ -1,0 +1,30 @@
+.main-width {
+  padding: 50px 100px
+}
+
+.flex-container-vertical {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  width: 64px;
+  height: 64px;
+}
