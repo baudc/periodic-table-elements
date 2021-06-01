@@ -12,6 +12,29 @@
   border: 1px solid black;
   padding: 5px;
   margin: 1px;
-  width: 60px;
-  height: 60px;
+  min-width: 64px;
+  min-height: 64px;
+}
+
+.element-number {
+  font-size: 1.2vh;
+}
+
+.element-symbol {
+  text-align: center;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+.element-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 1.2vh;
+}
+
+.element-phase {
+  text-align: center;
+  font-size: 1.2vh;
 }

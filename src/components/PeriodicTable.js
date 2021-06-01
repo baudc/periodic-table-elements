@@ -12,11 +12,14 @@ const PeriodicTable = () => {
             <div
               className="element"
               style={{
+                backgroundColor: "#" + item["cpk-hex"],
                 gridColumnStart: item.xpos,
                 gridRowStart: item.ypos,
               }}>
-              <div>{item.number}</div>
-              <div>{item.symbol}</div>
+              <div className="element-number">{item.number}</div>
+              <div className="element-symbol">{item.symbol}</div>
+              <div className="element-name">{item.name}</div>
+              <div className="element-phase">{item.phase}</div>
             </div>
           );
         })}
