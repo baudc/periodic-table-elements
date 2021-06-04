@@ -1,6 +1,6 @@
 import "./App.css";
-import Header from "./Header";
-import PeriodicTable from "./PeriodicTable";
+import Header from "./Header/Header";
+import PeriodicTable from "./PeriodicTable/PeriodicTable";
 
 const App = () => {
   return (

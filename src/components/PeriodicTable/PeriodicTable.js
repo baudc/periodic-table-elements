@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./PeriodicTable.css";
-import { elements } from "../assets/elements.json";
+import { elements } from "../../assets/elements.json";
 
 const PeriodicTable = () => {
   const columns = Array.from(Array(18), (_, i) => i + 1);
