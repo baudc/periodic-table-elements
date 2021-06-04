@@ -8,59 +8,6 @@
   grid-template-columns: repeat(17, 84px);
 }
 
-.legend {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.legend > .element {
-  width: 180px;
-  height: 180px;
-  justify-content: space-evenly;
-}
-
-.legend-number {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.legend-symbol {
-  font-size: 34px;
-  font-weight: 500;
-}
-
-.legend-name {
-  font-size: 18px;
-}
-
-.element {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 80px;
-  height: 80px;
-  border: 3px solid #fff;
-  margin: 2px;
-}
-
-.element-number {
-  font-size: 10px;
-  font-weight: 500;
-  align-self: flex-start;
-}
-
-.element-symbol {
-  font-size: 22px;
-  font-weight: 500;
-}
-
-.element-name {
-  font-size: 10px;
-}
-
 .popup {
   position: relative;
   display: inline-block;
@@ -95,48 +42,4 @@
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-}
-
-.alkali {
-  /* Merry Cranesbill */
-  border-color: #ff4533;
-}
-
-.earth {
-  border-color: #ff9d40;
-}
-
-.transition {
-  /* Light Heat Blue */
-  border-color: #ffeb5d;
-}
-
-.post-transition {
-  /* Bewitched Tree*/
-  border-color: rgba(69, 230, 80, 0.6);
-}
-
-.metalloid {
-  border-color: #53c9f0;
-}
-
-.nonmetal {
-  /* Magic Powder */
-  border-color: #368fcd;
-}
-
-.diatomic {
-  border-color: rgba(115, 64, 160, 0.6);
-}
-
-.noble-gas {
-  border-color: rgba(61, 51, 101, 0.5);
-}
-
-.lanthanide {
-  border-color: #fd80bd;
-}
-
-.actinide {
-  border-color: #d244a3;
 }

@@ -1,0 +1,25 @@
+.legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.legend > .element {
+  width: 180px;
+  height: 180px;
+  justify-content: space-evenly;
+}
+
+.legend-number {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.legend-symbol {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.legend-name {
+  font-size: 18px;
+}
